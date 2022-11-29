@@ -158,14 +158,14 @@ function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
   var redondeo = Math.round(num);
-return redondeo
+return redondeo;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   var redondeo = Math.ceil(num);
-return redondeo
+return redondeo;
 
 }
 
@@ -173,7 +173,7 @@ function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   var redondeo = Math.Random();
-return redondeo
+return redondeo;
 
 }
 
@@ -183,7 +183,7 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
  if(numero === 0){
-   return false
+   return false;
  }else{
    if(numero>0){
     return('es positivo');
