@@ -130,7 +130,7 @@ function esImpar(num) {
     return false;
   }else{
     return true;
-  }  
+  }
 }
 
 function elevarAlCuadrado(num) {
@@ -172,7 +172,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  var redondeo = Math.Random();
+  var redondeo = Math.random();
   return redondeo;
 }
 
