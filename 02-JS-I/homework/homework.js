@@ -184,9 +184,9 @@ function esPositivo(numero) {
    return false;
  }else{
    if(numero>0){
-    return('es positivo');
+    return ('es positivo');
    }else{
-    return('es negativo');
+    return ('es negativo');
    }
  }
 }
@@ -195,14 +195,14 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return(str + '!');
+  return (str + '!');
 }
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return(nombre + ' ' + apellido);
+  return (nombre + ' ' + apellido);
 }
 
 function obtenerSaludo(nombre) {
