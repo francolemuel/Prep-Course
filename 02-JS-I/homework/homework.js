@@ -265,8 +265,6 @@ function esVocal(letra){
  }
 }
 
-
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 
@@ -304,4 +302,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-};
+}
