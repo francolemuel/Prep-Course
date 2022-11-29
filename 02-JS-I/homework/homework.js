@@ -166,7 +166,6 @@ function redondearHaciaArriba(num) {
   // Tu código:
   var redondeo = Math.ceil(num);
   return redondeo;
-
 }
 
 function numeroRandom() {
@@ -174,7 +173,6 @@ function numeroRandom() {
   //Pista: investigá qué hace el método Math.random()
   var redondeo = Math.Random();
   return redondeo;
-
 }
 
 function esPositivo(numero) {
@@ -197,7 +195,6 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  var str = 'str';
   return(str + '!');
 }
 
@@ -206,7 +203,6 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   return(nombre + ' ' + apellido);
-
 }
 
 function obtenerSaludo(nombre) {
@@ -214,7 +210,6 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
   return ('Hola ' + nombre);
-
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -302,5 +297,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-
 }
