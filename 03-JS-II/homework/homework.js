@@ -75,16 +75,16 @@ function colors(color) {
   //Usar el statement Switch.
   switch(color){
     case 'blue': 
-     return ('This is blue');
+     return ('This is ' + color);
     break;
     case 'red': 
-     return ('This is red');
+    return ('This is ' + color);
     break;
     case 'green': 
-     return ('this is green');
+    return ('This is ' + color);
     break;
     case 'orange': 
-     return ('this is orange');
+    return ('This is ' + color);
     break;
     default: return ('Color not found');
   }
