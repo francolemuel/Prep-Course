@@ -210,7 +210,7 @@ function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
   if (Math.floor(numero) === numero){
-    if (numero.length === 3){
+    if (numero >= 100 || numero < 1000){
       return true;
     }else{
       return false;
