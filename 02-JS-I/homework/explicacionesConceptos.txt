@@ -1,3 +1,5 @@
-1- *VARIABLE: es un espacio en memoria, en donde se adjudica algun valor, pueden ser numeros o palabras.
-   *STRING: es un tipo de dato referido a palabras
-   *
+1- *VARIABLE: es un espacio en memoria, en donde se adjudica algun valor, pueden ser numeros o palabras;
+   *STRING: es un tipo de dato referido a palabras;
+   *FUNCIONES: es un conjunto de acciones que se ejecutan en base a los argumentos que se escriben entre parentesis;
+   *DECLARACIONES IF: es una condicion, cada vez que se cumpla ejecuta una accion predeterminada y si no se cumple ejecuta otra;
+   *BOOLEANOS: es un tipo de dato en base a si algo es verdadero (true) o falso (false);
