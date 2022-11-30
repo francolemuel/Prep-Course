@@ -111,12 +111,14 @@ function numeroMasGrande(numeros) {
   var apuntadorA = 0;
   var apuntadorB = 1;
   var aux = null;
-  while(contador < numeros.length){
+  while(contador <= numeros.length){
     while(apuntadorB <= numeros.length){
       if(numeros[apuntadorB] > numeros[apuntadorA]){
-        aux = apuntadorB;
-        apuntadorB = apuntadorA;
-        apuntadorA = aux;
+        aux = numeros[apuntadorB];
+        numeros[apuntadorB] = numeros[apuntadorA];
+        numeros[apuntadorA] = aux;
+      }else{
+
       }
       apuntadorA++;
       apuntadorB++;
