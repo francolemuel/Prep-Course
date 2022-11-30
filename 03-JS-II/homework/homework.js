@@ -200,10 +200,10 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí  
-  var tabla = []
+  var tabla = [10]
 
   for(var i = 0; i <= 10; i++){
-    numero = 6 * i;
+    
     console.log (numero);
   }
 }
@@ -211,8 +211,8 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  if (numero(Number.isInteger)){
-    if (numero >= 100 || numero < 1000){
+  if (numero === Math.floor(numero)){
+    if (numero >= 100 && numero < 1000){
       return true;
     }else{
       return false;
