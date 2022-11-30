@@ -1,0 +1,3 @@
+1.   *For: es un bucle que tiene 3 elementos en la condicion (declaracion de variable, condicion, e incremento de dicha variable)
+     *&&, ||. !, son operadores logicos que se usan en condiciones, && quiere decir que se tiene que cumplir tanto lo de un lado como lo del otro,
+     || quiere decir que se tiene que cumplir lo de un lado o lo del otro y ! quiere decir que es lo opuesto a lo que se le aplica.
