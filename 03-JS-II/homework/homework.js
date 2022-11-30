@@ -52,11 +52,14 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   switch(idioma){
-    case aleman: return ('Guten Tag!');
+    case aleman:
+     return ('Guten Tag!');
     break;
-    case mandarin: return ('Ni Hao!');
+    case mandarin:
+     return ('Ni Hao!');
     break;
-    case ingles: return('Hello!');
+    case ingles:
+     return('Hello!');
     break;
     default: return ('Hola!');
   }
@@ -71,13 +74,17 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
   switch(color){
-    case blue: return ('This is blue');
+    case blue: 
+     return ('This is blue');
     break;
-    case red: return ('This is red');
+    case red: 
+     return ('This is red');
     break;
-    case green: return ('this is green');
+    case green: 
+     return ('this is green');
     break;
-    case orange: return ('this is orange');
+    case orange: 
+     return ('this is orange');
     break;
     default: return ('Color not found');
   }
@@ -129,9 +136,9 @@ function fizzBuzz(numero) {
   if ((numero % 3 === 0) && (numero % 5 === 0)){
     return ('fizzbuzz');
   }else if(numero % 5 === 0){
-    return ('fizz');
-  }else if(numero % 3 === 0){
     return ('buzz');
+  }else if(numero % 3 === 0){
+    return ('fizz');
   }else{
     return numero;
   }
@@ -144,14 +151,14 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
-  if(num1 === 0 || num2 === 0 || num3 === 0){
-    return ('Error');
-  }else if(num1 >= 0 && num1 > num2 && num1 > num3){
+  if(num1 >= 0 && num1 > num2 && num1 > num3){
     return ('Número 1 es mayor y positivo');
   }else if(num1 <= 0 || num2 <= 0 || num3 <= 0){
     return ('Hay negativos');
   }else if(num3 > num1 && num3 > num2){
     return (num3 + 1);
+  }else if(num1 === 0 || num2 === 0 || num3 === 0){
+    return ('Error');
   }else{
     return false;
   }
@@ -164,7 +171,7 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   if (numero === 0 || numero === 1){
-    return falso
+    return false
   }else{
     for (var i = 2; numero % i !== 0; i++){
     }
@@ -210,12 +217,12 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  var i = 0
+  var i = 0;
   do{
     console.log(numero);
     numero+=5;
     i++;
-  }while(i < 8)
+  }while(i < 8);
 }
 
 
