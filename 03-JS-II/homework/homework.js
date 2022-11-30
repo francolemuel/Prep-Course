@@ -52,13 +52,13 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   switch(idioma){
-    case aleman:
+    case 'aleman':
      return ('Guten Tag!');
     break;
-    case mandarin:
+    case 'mandarin':
      return ('Ni Hao!');
     break;
-    case ingles:
+    case 'ingles':
      return('Hello!');
     break;
     default: return ('Hola!');
@@ -74,16 +74,16 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
   switch(color){
-    case blue: 
+    case 'blue': 
      return ('This is blue');
     break;
-    case red: 
+    case 'red': 
      return ('This is red');
     break;
-    case green: 
+    case 'green': 
      return ('this is green');
     break;
-    case orange: 
+    case 'orange': 
      return ('this is orange');
     break;
     default: return ('Color not found');
@@ -220,7 +220,7 @@ function doWhile(numero) {
   var i = 0;
   do{
     console.log(numero);
-    numero+=5;
+    numero = numero + 5;
     i++;
   }while(i < 8);
 }
