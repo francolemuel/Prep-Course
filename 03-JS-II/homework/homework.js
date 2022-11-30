@@ -191,7 +191,7 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
   for(var i = 0; i <= 10; i++){
     numero = 6;
-    console.log(numero * i);
+    return numero * i;
   }
 }
 
