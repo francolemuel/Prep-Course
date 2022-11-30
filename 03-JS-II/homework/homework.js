@@ -204,7 +204,7 @@ function tablaDelSeis(){
 
   for(var i = 0; i <= 10; i++){
     
-   arreglo.push(6 * i);
+   arreglo[i] = 6 * i;
   }
  return arreglo;
 }
