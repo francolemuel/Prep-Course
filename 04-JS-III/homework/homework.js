@@ -255,11 +255,12 @@ function breakStatement(numero) {
     array[i] = numero + 2;
     numero+=2
     if(array[i] === i){
-      break;
+      return ('Se interrumpió la ejecución');
     }
   }
-  return ('Se interrumpió la ejecución');
+  return array;
 }
+ 
 
 
 function continueStatement(numero) {
@@ -274,8 +275,8 @@ function continueStatement(numero) {
     if(i === 5){
       continue;
     }  
-    array[i] = numero + 2;
-      numero+=2
+    array.push(numero + 2);
+    numero+=2
   }
   return array;
 }
