@@ -1,0 +1,5 @@
+1.    * Objetos: es otro tipo de lista parecido a un arreglo pero se recorre por claves en vez de numeros;
+	  * Propiedades: es a lo que se le llama clave en el objeto;
+	  * Métodos: es una funcion dentro de una propiedad;
+	  * Bucle `for…in`: es un tipo de loop en el que pasa por todas las propiedades del objeto nombrado dentro;
+	  * Notación de puntos vs notación de corchetes: son dos tipos de notacion para nombrar una propiedad dentro de un objeto;
